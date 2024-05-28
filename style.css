@@ -1,0 +1,32 @@
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    /*Sombreado tipo caja*/
+    box-shadow:5px 5px 5px grey;
+  }
+  .note
+  {
+    font-size: 15px;
+    color: black;
+  }
+  .copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    /*Escoger color del pie de página*/
+    background-color:grey;
+    line-height: 3;
+    text-align: center;
+ }
+  /*Llamar el lienzo*/
+  canvas 
+  {
+    border:5px solid white;
+    border-radius:10px;
+    /*Escoger el color de canvas*/
+    box-shadow:5px 5px 5px grey;
+  }
+ 
